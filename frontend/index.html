@@ -12,7 +12,7 @@
 
         
 
-        <title>Responsive personal portfolio | Harris</title>
+        <title>Portfolio website complete</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -24,11 +24,11 @@
 
                 <div class="nav_menu" id="nav-menu">
                     <ul class="nav_list">
-                        <li class="nav_item"><a href="#" class="nav_link activate">Home</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">About</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Skills</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Work</a></li>
-                        <li class="nav_item"><a href="#" class="nav_link">Contact</a></li>
+                        <li class="nav_item"><a href="#home" class="nav_link activate">Home</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#work" class="nav_link">Work</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
                     </ul>
                 </div>
 
@@ -43,7 +43,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home_data">
-                    <h1 class="home_title">Hi, <br>I'm <span class="home_title-color">Guli</span> <br>Web Degister</h1>
+                    <h1 class="home_title">Hi, <br>I'am <span class="home_title-color">Guli</span> <br>Web Degister</h1>
                     <a href="#" class="button">Contact</a>
                 </div>
 
@@ -60,44 +60,151 @@
 
             <!--===== ABOUT =====-->
             <section class="about section" id="about">
-                <h2 class="section_title">About</h2>
+                <h2 class="section-title">About</h2>
 
-                <div class="about_img">
-                    <img src="/frontend/assets/img/guli1.png" alt="#">
+                <div class="about_container bd-grid">
+                    <div class="about_img">
+                        <img src="/frontend/assets/img/guli1.png" alt="#">
+                    </div>
+    
+                    <div>
+                        <h2 class="about_subtitle">I'am Guli</h2>
+                        <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nisi aliquam quisquam quos rerum officia at ex in tenetur est id, sunt autem nemo, quasi, incidunt magnam! Id, aliquid perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fugit similique, expedita sed est et! Similique, nemo officia? Voluptatibus adipisci alias magnam consectetur et voluptates reiciendis blanditiis ducimus possimus? Nobis! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima numquam ratione mollitia cum dicta dolor sunt perspiciatis ipsam maiores expedita facere, illo possimus praesentium? Quam quo non quae aperiam distinctio.</p>
+                    </div>
                 </div>
-
-                <div>
-                    <h2 class="about_subtitle">I'am Guli</h2>
-                    <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima numquam ratione mollitia cum dicta dolor sunt perspiciatis ipsam maiores expedita facere, illo possimus praesentium? Quam quo non quae aperiam distinctio.</p>
-
-                </div>
-
             </section>
             
 
             <!--===== SKILLS =====-->
-            
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-            <!--===== EDUCATION =====-->
-            
+                <div class="skills_container bd-grid">
+                    <div>
+                        <h2 class="skills_subtitle">Profesional Skills</h2>
+                        <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui distinctio fugit quia fugiat optio harum. Beatae sequi voluptatum quo dicta tempora nisi animi debitis accusamus est, ullam sunt sed.</p>
+                        
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-html5 skills_icon' ></i>
+                                <span class="skills_name">HTML5</span>
+                            </div>
 
-            <!--===== SERVICES =====-->
-            
+                            <div>
+                                <span class="skills_percentage">95%</span>
+                            </div>
 
-            <!--===== PROJECT IN MIND =====-->
-            
+                            <div class="skills_bar skills_html"></div>
+                        </div>
 
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-css3 skills_icon' ></i>
+                                <span class="skills_name">CSS3</span>
+                            </div>
+
+                            <div>
+                                <span class="skills_percentage">85%</span>
+                            </div>
+                            
+                            <div class="skills_bar skills_css"></div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-javascript skills_icon' ></i>
+                                <span class="skills_name">JAVASCRIPT</span>
+                            </div>
+
+                            <div>
+                                <span class="skills_percentage">65%</span>
+                            </div>
+                            
+                            <div class="skills_bar skills_js"></div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_names">
+                                <i class='bx bxl-python skills_icon' ></i>
+                                <span class="skills_name">PYTHON</span>
+                            </div>
+
+                            <div>
+                                <span class="skills_percentage">85%</span>
+                            </div>
+                            
+                            <div class="skills_bar skills_python"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/frontend/assets/img/work3.jpg" alt="#" class="skills_img">
+                    </div>
+
+                </div>
+            </section>
+            
             <!--===== WORKS =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work_container bd-grid">
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work1.jpg" alt="#">
+                    </div>
+
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work2.jpg" alt="#">
+                    </div>
+
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work3.jpg" alt="#">
+                    </div>
+
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work4.jpg" alt="#">
+                    </div>
+
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work5.jpg" alt="#">
+                    </div>
+
+                    <div class="work_img">
+                        <img src="/frontend/assets/img/work6.jpg" alt="#">
+                    </div>
+                </div>
+            </section>
             
 
             <!--===== CONTACT =====-->
-            
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact_container bd-grid">
+                    <form action="" class="contact_form">
+                        <input type="text" placeholder="Name" class="contact_input">
+                        <input type="mail" placeholder="Email" class="contact_input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+
+                        <input type="button" value="Enviar" class="contact_button button">
+                    </form>
+                </div>
+            </section>
         </main>
 
         <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer_title">Guli</p>
+            
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer_icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer_icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <p>&#169;2020 copyright all right reserved</p>
+        </footer>
 
         <!--==== SCROLL REVEAL ====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/scrollreveal"></script> 
         
         <!--===== MAIN JS =====-->
         <script src="/frontend/assets/js/main.js"></script>
